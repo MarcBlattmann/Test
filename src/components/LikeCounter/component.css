@@ -1,0 +1,19 @@
+.like-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.like-button {
+    all: unset;
+    background-color: rgb(196, 0, 0);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+}
+
+.like-button:hover {
+    background-color: rgba(196, 0, 0, 0.67);
+}
