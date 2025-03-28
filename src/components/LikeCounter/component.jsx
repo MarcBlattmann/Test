@@ -16,7 +16,7 @@ export default function LikeCounter() {
         <div className='like-counter'>
             <p>Likes: ({count})</p>
             <button onClick={handleClick} className='like-button'>
-                {isLiked ? 'Unlike' : 'Like'}
+                {isLiked ? 'Like Zurückziehen' : 'Like'}
             </button>
         </div>
     );
