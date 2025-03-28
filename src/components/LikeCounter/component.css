@@ -4,6 +4,7 @@
     align-items: center;
     gap: 0.5rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .like-button {
